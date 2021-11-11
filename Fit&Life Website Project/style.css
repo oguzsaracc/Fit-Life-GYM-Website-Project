@@ -1,0 +1,359 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+	font-family: 'Roboto', sans-serif;
+	color: #505962;
+}
+
+/* Code for Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+
+/* Code for Navigation Bar Part */
+
+.navbar {
+	text-transform: uppercase;
+	padding-bottom: .5rem;
+	background-color: rgba(219, 0, 7);
+	border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding-right: 0.5rem;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+	border-bottom: 1.5px solid #FFFFFF;
+	transition: 0.2s;
+}
+
+.navbar-brand img {
+	height: 2.4rem;
+}
+
+.infoContent {
+	padding-bottom: 1rem;
+}
+
+/* Code for Landing - Caption Part */
+
+.home-inner {
+	background-image: url('img/landing.png');
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.caption h3 {
+	color: #FFFFFF;
+	font-size: 4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.caption3 {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+.caption3 h3 {
+	color: #000000;
+	font-size: 4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.caption a {
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: .5rem 1.5rem;
+	font-size: 2rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.caption2 {
+	width: 100%;
+	max-width: 100%;
+}
+
+.caption2 h3 {
+	color: #FFFFFF;
+	font-size: 4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.caption2 button {
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: .5rem 1.5rem;
+	font-size: 2rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+/* Code for Text-Heading Part */
+
+h3.heading {
+	text-align: center;
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2.heading {
+	text-align: center;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.padding {
+	padding: 2rem 0;
+}
+
+/* Codes for Gym Information Images Part */
+
+img.gymInfo {
+		max-width: 100%;
+		border-style: solid;
+		border-color: #000000;
+		transition: all .4s ease;
+}
+
+img.gymInfo:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.no-padding .col-md-6 {
+	padding: 0;
+}
+
+
+/* Code for Classes, Table Design Part */
+
+#contactWithUs table {
+	text-align: center;
+	border: 0.3rem solid #000000;
+	font-size: 1rem;
+}
+
+#contactWithUs td {
+	border: 0.03rem solid #FFFFFF;
+	font-size: 1.08rem;
+	font-weight: bold;
+	color: #000000;
+}
+
+.pilates{
+	background-color: #FA86C4;
+}
+
+.cardio{
+	background-color: #E3242B;
+}
+
+.zumba{
+	background-color: #FEE12B;
+}
+
+.spinning{
+	background-color: #63C5DA;
+}
+
+.crunch{
+	background-color: #03C04A;
+}
+
+/* Code for registration.php Table Design & Heading */
+
+#bronzeMembership table {
+	text-align: center;
+	border: 0.15rem solid #BEC2CB;
+	font-size: 1rem;
+	color: #000000;
+}
+
+#silverMembership table {
+	text-align: center;
+	border: 0.15rem solid #BEC2CB;
+	font-size: 1rem;
+	color: #000000;
+}
+
+#goldMembership table {
+	text-align: center;
+	border: 0.15rem solid #BEC2CB;
+	font-size: 1rem;
+	color: #000000;
+}
+
+.underlinePrice {
+	text-decoration: underline;
+}
+
+/* Code for contact_us. input Part */
+
+#contactWithUs input {
+	width:80%;
+
+}
+
+#contactWithUs button {
+	font-family: 'Roboto', sans-serif;
+	border: 3px solid #505962;
+	color: #000000;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all .35s;
+}
+
+#contactWithUs button:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.30);
+	transition: all 0.4s ease 0s;
+}
+
+/* Code for testimonial_add. button&image Part */
+
+#testimonial_add button {
+	font-family: 'Roboto', sans-serif;
+	border: 3px solid #505962;
+	color: #000000;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all .35s;
+}
+
+#testimonial_add button:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.30);
+	transition: all 0.4s ease 0s;
+}
+
+.form-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* Code for sizing-padding Card Part */
+
+.card {
+	/* margin: 2rem; */
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none
+}
+
+/* Code for Testimonial, Padding between Card Part */
+
+#testimonial .col-md-3 {
+	padding-bottom: 1rem;
+}
+
+/* Code for Footer Part */
+
+.footer .row {
+	background-color:  rgba(219, 0, 7, 0.9);
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	padding: 1rem 2rem 3rem;
+	color: #FFFFFF;
+}
+
+.footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
